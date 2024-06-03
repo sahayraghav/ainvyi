@@ -20,7 +20,7 @@ const userschema = mongoose.Schema({
     }
 },{timestamps:true})
 
-// User model
+// User model comment
 const usermodel = mongoose.model("users",userschema)
 
 module.exports = usermodel
